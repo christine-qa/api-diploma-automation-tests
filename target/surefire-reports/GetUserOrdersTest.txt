@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: GetUserOrdersTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.719 s <<< FAILURE! - in GetUserOrdersTest
+getUserOrdersWithAuthShouldReturn200ФAndValidTodayAmountOfOrdersTest(GetUserOrdersTest)  Time elapsed: 5.012 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+JSON path totalToday doesn't match.
+Expected: <1>
+  Actual: <153>
+
+	at GetUserOrdersTest.getUserOrdersWithAuthShouldReturn200ФAndValidTodayAmountOfOrdersTest(GetUserOrdersTest.java:31)
+
